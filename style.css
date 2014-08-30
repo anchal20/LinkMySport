@@ -53,6 +53,11 @@ table {
     
     background: url(bg.png) repeat-x;
 }
+#main1 {
+    background: url(3-site-setting-page_bg.gif) no-repeat;
+    width: 1600px;
+    height: 1020px;
+}
 
 .wrapper {
     width: 960px;
@@ -63,6 +68,17 @@ table {
     position: relative;
 }
 
+.form {
+    background: url(3-site-setting-page_bg2.gif) no-repeat;
+    width: 520px;
+    height: 489px;
+    z-index: -1;   
+}
+
+#start {
+    margin-top: 18.2%;
+    margin-right: 1%;
+}
 .head {
     width: 100%;
     height: 40px;
@@ -105,6 +121,34 @@ fieldset {
     padding-left: 10px;
     margin:0px 40px 25px 40px;
 }
+.box1 {
+    width: 430px;
+    height: 45px;
+    padding-left: 0px;
+    margin-bottom: 35px;
+    text-align: center;
+    margin-top: 17%;
+    margin-left: 34%;
+    font-size: 30px;
+}
+
+.textbox1 {
+    border-style: none;
+    width: 394px;
+    height: 43px;
+    padding-left: 10px;
+    margin-top: 10.48%;
+}
+#logo {
+    width: 272px;
+    margin-top: 5.4%;
+    margin-left: 0%;
+    margin-right: 0;
+}
+#address{
+    margin-top: 30.1%;
+    height: 90px;
+}
 #web-name {
     width: 300px;
 }
@@ -116,11 +160,23 @@ fieldset {
     margin-left: -50px;
     display: inline;
 }
+.browse {
+    background-color: #b3b3b3;
+    border-style: none;
+    width: 134px;
+    height: 45px;
+    z-index: 10;
+    margin-left: -1.4%;
+}
+
+.button {
+    background-color: #f36523;
+    width: 204px;
+    height: 52px;
+    border-style: none;
+}
 
 #start_button {
-    background-color: #f36523;
-    width: 216px;
-    height: 58px;
     margin-top: 5%;
     margin-left: 32%;
 }
